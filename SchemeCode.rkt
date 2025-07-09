@@ -1,5 +1,29 @@
+# Scheme family tree
+- This project is a family tree management and analysis system built in Scheme (Racket). It stores and processes genealogical data for both maternal and paternal branches, offering various features such as listing 
+  members, determining relationships, analysing birth/death data, and performing name updates.
+- Represents maternal and paternal branches as structured lists, Defines and prints each branch or combined data using (lst-mb), (lst-pb), and (lst-all). Includes recursive functions to: Display parents for each 
+  member, List all living members, Calculate individual ages, Identify members born in a specific month, Sort names alphabetically, Replace specific first names. Provides extended functionality to:
+  List all children, identify the oldest living person, calculate average age at death (paternal side), and Filter by shared birth month
+  Update all occurrences of "Mary" to "Maria"
+- What I learnt: 
+1. Working with Nested Lists in Scheme
+   I learned to navigate and manipulate nested data structures using functions like car, cdr, caddr, and recursive traversal.
+2. Conditional and Recursive Logic
+   I developed custom recursive functions for data filtering, aggregation, and transformation (e.g., same-birthday-month, oldest-living-member, get-parents).
+3. Functional Programming Paradigms
+   I practised pure functional constructs such as map, filter, and lambda, reinforcing declarative programming skills.
+4. Handling Date Information in Nested Lists
+   I extracted and compared date elements (day, month, year) to calculate age, determine the oldest living members, and filter by birth month.
+5. String and Symbol Manipulation
+   I used symbol->string, string<?, and char->integer to sort names alphabetically and convert values for logic comparisons.
+6. Custom Data Updates
+   I implemented search-and-replace operations across nested structures to rename individuals while preserving the rest of their records.
+- Self-reflection: This project was a deep dive into Scheme's list processing and recursive function design, giving me strong insights into symbolic computation and declarative data manipulation. I appreciated the 
+  elegance and compactness of recursion for traversing complex data structures. This hands-on experience with Scheme's core strengths — symbolic data, recursion, and functional purity — has enhanced my ability to 
+  reason about and build structured algorithms. It was particularly rewarding to watch a family tree unfold as a dynamic, queryable system entirely through code.
+##################################################### This section is purely for documentation, please delete when running the code ##################################################################################
+
 ;;Your full name: Gizem Kumrili
-;;Student ID:  001313271
 ;;Date of birth (day/month/year): 09/02/2005
 
 ;;Data format: Name, Mother, Father, Date of birth, Date of death.
