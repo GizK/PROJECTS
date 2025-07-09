@@ -18,3 +18,5 @@
 - Self-reflection: This project challenged me to combine bitwise logic, performance tuning, and algorithmic problem solving. The rapid growth in runtime with large binary strings emphasized the importance of 
   optimization and caching. I also gained experience in profiling and improving algorithms based on real-time test cases. It was rewarding to see how subtle changes like skipping known composites or caching previous 
   results could lead to substantial improvements in performance. This project pushed my understanding of both low-level binary manipulation and high-level performance analysis.
+  
+#The pdf is the report I had uploaded as the group leader. 
