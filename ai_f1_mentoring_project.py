@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-"""AI F1 mentoring project FEMETRONICS WEBINAR """
+"""AI F1 mentoring project FEMETRONICS WEBINAR Winter 2025 """
 
 #Gizem Kumrili
 #F1 Bias Mitigation: Training Specialized Models with Disaggregation
