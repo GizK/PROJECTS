@@ -662,8 +662,6 @@ Prepared:
 - data for the bars ( to show two bars for each group: one for the unified model’s error, one for the specialised models’ error. We define:
 which groups we have on the x-axis (Top-Tier, Other Teams), the errors for those groups with the unified model and the errors for those groups with the specialised models)
 
-🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁
-
 🏁🏁🏁🏁 **EXPLANATION OF THE RESULTS** 🏁🏁🏁🏁
 
 Summary:
@@ -686,13 +684,13 @@ We gave the other-teams model 3,468 laps. Each model learns patterns specific to
 ****
 What the Unified Model Bars Mean:
 
-🟥 Unified Model bars (red):
+ Unified Model bars (red):
 - Top-Tier error ≈ 0.007 seconds
 - Other-Team error ≈ 0.010 seconds
 
 Meaning: The unified model makes better predictions for top-tier teams and worse predictions for smaller teams. This shows bias, because the model is not equally accurate for both groups.
 
-🟦 Specialised Models bars (blue):
+Specialised Models bars (blue):
 - Both errors ≈ 0.011 seconds
 - Very close to each other (0.0115 vs 0.0111)
 
